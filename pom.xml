@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>VoiceScan</artifactId>
+    <artifactId>demo1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>VoiceScan</name>
-    <description>VoiceScan</description>
+    <name>demo1</name>
+    <description>demo1</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -22,6 +22,16 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -34,6 +44,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.6.9</version>
             </plugin>
         </plugins>
     </build>

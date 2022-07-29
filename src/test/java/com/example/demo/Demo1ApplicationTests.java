@@ -1,10 +1,10 @@
-package com.example.voicescan;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class VoiceScanApplicationTests {
+class Demo1ApplicationTests {
 
     @Test
     void contextLoads() {

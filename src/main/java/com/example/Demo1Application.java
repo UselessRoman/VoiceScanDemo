@@ -1,13 +1,13 @@
-package com.example.voicescan;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VoiceScanApplication {
+public class Demo1Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(VoiceScanApplication.class, args);
+        SpringApplication.run(Demo1Application.class, args);
     }
 
 }
